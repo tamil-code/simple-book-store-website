@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online book store</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+
+        <div class="header-1">
+    
+            <a href="./index.html" class="logo"> <i class="fas fa-book"></i> The book store </a>
+    
+    
+            <div class="icons">
+                <div id="search-btn" class="fas fa-search"></div>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+                <div id="login-btn" class="fas fa-user"></div>
+            </div>
+    
+        </div>
+    
+        <div class="header-2">
+            <nav class="navbar">
+                <a href="./index.html">home</a>
+                <a href="./feature.html">featured</a>
+                <a href="./arrivals.html">arrivals</a>
+                <a href="./reviews.html">reviews</a>
+                <a href="#blogs">blogs</a>
+            </nav>
+        </div>
+    
+    </header>
+    
+    <!-- header section ends -->
+    
+    <!-- bottom navbar  -->
+    
+    <nav class="bottom-navbar">
+        <a href="#home" class="fas fa-home"></a>
+        <a href="#featured" class="fas fa-list"></a>
+        <a href="#arrivals" class="fas fa-tags"></a>
+        <a href="#reviews" class="fas fa-comments"></a>
+        <a href="#blogs" class="fas fa-blog"></a>
+    </nav>
+    
+    <!-- login form  -->
+    
+    <div class="login-form-container">
+    
+        <div id="close-login-btn" class="fas fa-times"></div>
+    
+        <form action="">
+            <h3>sign in</h3>
+            <span>username</span>
+            <input type="email" name="" class="box" placeholder="enter your email" id="">
+            <span>password</span>
+            <input type="password" name="" class="box" placeholder="enter your password" id="">
+            <div class="checkbox">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me"> remember me</label>
+            </div>
+            <input type="submit" value="sign in" class="btn">
+            <p>forget password ? <a href="#">click here</a></p>
+            <p>don't have an account ? <a href="#">create one</a></p>
+        </form>
+    
+    </div>
+    
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> <span>our blogs</span> </h1>
+    
+        <div class="swiper blogs-slider">
+    
+            <div class="swiper-wrapper">
+    
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>books to improve productivity</h3>
+                        <p>read this article to improve your productivity</p>
+                        <a href="https://www.samuelthomasdavies.com/book-summaries/self-help/atomic-habits/" class="btn">read more</a>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Motivation books summary</h3>
+                        <p>In this article you will find various motivation books summary</p>
+                        <a href="https://www.samuelthomasdavies.com/book-summaries/self-help/atomic-habits/" class="btn">read more</a>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>The alchimist book summary</h3>
+                        <p>In this article you will find alchimist book summary written by paulo choelo.</p>
+                        <a href="https://www.samuelthomasdavies.com/book-summaries/self-help/atomic-habits/" class="btn">read more</a>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Atomic habits book summary</h3>
+                        <p>In this article you will find atomic habits book summary</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+    
+                <div class="swiper-slide box">
+                    <div class="image">
+                        <img src="image/blog-5.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>Top 10 fiction books to read</h3>
+                        <p>In this article you will find 10 most popular fiction books to read.</p>
+                        <a href="#" class="btn">read more</a>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </div>
+    
+    </section>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+</body>
+</html>
